@@ -12,7 +12,7 @@ function loaded() {
 	setInterval(loop, 260);
 }
 var x = 0;
-var titleText = ["h", "ha", "hara", "harak", "haraki", "harakir", "harakiri", "harakir", "haraki", "harak", "harak", "hara", "har", "ha", "h", " " ];
+var titleText = ["c", "ch", "che", "chea", "cheati", "cheatin", "cheating", "cheating", "cheating", "cheatin", "cheatin", "cheati", "chea", "che", "ch", "c", " " ];
 
 function loop() {
 	document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length];
