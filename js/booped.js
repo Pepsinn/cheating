@@ -9,7 +9,7 @@ if (document.addEventListener) {
 }
 
 function loaded() {
-	setInterval(loop, 170);
+	setInterval(loop, 300);
 }
 var x = 0;
 var titleText = ["c", "ch", "che", "chea", "cheat", "cheati", "cheatin", "cheating", "cheating", "cheating.", "cheating.c", "cheating.cc", "cheating.c", "cheating.", "cheating", "cheatin", "cheati", "cheat", "chea", "che", "ch", "c", "⠀"];
