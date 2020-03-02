@@ -9,10 +9,10 @@ if (document.addEventListener) {
 }
 
 function loaded() {
-	setInterval(loop, 260);
+	setInterval(loop, 500);
 }
 var x = 0;
-var titleText = ["c", "ch", "che", "chea", "cheati", "cheatin", "cheating", "cheating", "cheating", "cheatin", "cheatin", "cheati", "chea", "che", "ch", "c", " " ];
+var titleText = ["c", "ch", "che", "chea", "cheat", "cheati", "cheatin", "cheating", "cheating", "cheatin", "cheatin", "cheati", "cheat", "chea", "che", "ch", "c", " " ];
 
 function loop() {
 	document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length];
